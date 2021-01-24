@@ -39,7 +39,7 @@ import static java.util.Arrays.asList;
 @RequestMapping("/backend-b")
 public class RestControllerB {
 
-    private static final String BACKEND_B = "backendB";
+    private static final String BACKEND_B = "backend-b";
 
     private final BackendService backendServiceB;
     private final CircuitBreaker circuitBreaker;

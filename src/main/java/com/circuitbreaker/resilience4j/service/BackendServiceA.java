@@ -27,7 +27,7 @@ import java.util.concurrent.TimeoutException;
 @Service
 public class BackendServiceA implements BackendService {
 
-    private static final String BACKEND_A = "backendA";
+    private static final String BACKEND_A = "backend-a";
 
     @Override
     @CircuitBreaker(name = BACKEND_A)
